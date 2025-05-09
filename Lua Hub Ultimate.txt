@@ -1,0 +1,883 @@
+-- Load Rayfield UI Library
+
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+
+-- Create Window
+
+local Window = Rayfield:CreateWindow({
+
+    Name = "Lua Hub Ultimate",
+
+    LoadingTitle = "Lua Hub Ultimate",
+
+    LoadingSubtitle = "By shm_shm aka 797 on discord",
+
+    
+
+Theme = {
+
+    TextColor = Color3.fromRGB(255, 255, 255), -- White Text
+
+    Background = Color3.fromRGB(0, 0, 0), -- Black Background
+
+    Topbar = Color3.fromRGB(30, 30, 30), -- Dark Gray
+
+    Shadow = Color3.fromRGB(20, 20, 20), -- Darker Shadow
+
+    NotificationBackground = Color3.fromRGB(25, 25, 25),
+
+    NotificationActionsBackground = Color3.fromRGB(200, 200, 200), -- Light Gray
+
+    TabBackground = Color3.fromRGB(40, 40, 40),
+
+    TabStroke = Color3.fromRGB(60, 60, 60),
+
+    TabBackgroundSelected = Color3.fromRGB(255, 255, 255), -- White
+
+    TabTextColor = Color3.fromRGB(255, 255, 255),
+
+    SelectedTabTextColor = Color3.fromRGB(0, 0, 0), -- Black for contrast
+
+    ElementBackground = Color3.fromRGB(35, 35, 35),
+
+    ElementBackgroundHover = Color3.fromRGB(50, 50, 50),
+
+    SecondaryElementBackground = Color3.fromRGB(25, 25, 25),
+
+    ElementStroke = Color3.fromRGB(70, 70, 70),
+
+    SecondaryElementStroke = Color3.fromRGB(50, 50, 50),
+
+    SliderBackground = Color3.fromRGB(100, 100, 100), -- Gray Slider
+
+    SliderProgress = Color3.fromRGB(255, 255, 255), -- White Progress
+
+    SliderStroke = Color3.fromRGB(150, 150, 150),
+
+    ToggleBackground = Color3.fromRGB(40, 40, 40),
+
+    ToggleEnabled = Color3.fromRGB(255, 255, 255), -- White Toggle
+
+    ToggleDisabled = Color3.fromRGB(80, 80, 80),
+
+    ToggleEnabledStroke = Color3.fromRGB(200, 200, 200), -- Light Gray Stroke
+
+    ToggleDisabledStroke = Color3.fromRGB(120, 120, 120),
+
+    ToggleEnabledOuterStroke = Color3.fromRGB(80, 80, 80),
+
+    ToggleDisabledOuterStroke = Color3.fromRGB(60, 60, 60),
+
+    DropdownSelected = Color3.fromRGB(50, 50, 50),
+
+    DropdownUnselected = Color3.fromRGB(40, 40, 40),
+
+    InputBackground = Color3.fromRGB(50, 50, 50),
+
+    InputStroke = Color3.fromRGB(80, 80, 80),
+
+    PlaceholderColor = Color3.fromRGB(200, 200, 200) -- Light Gray Placeholder
+
+},
+
+    ConfigurationSaving = {
+
+        Enabled = false,
+
+    },
+
+    KeySystem = false,
+
+    KeySettings = {
+
+        Title = "key,
+
+        Subtitle = "Enter Key to Continue",
+
+        Note = "no key",
+
+        FileName = "V - Key",
+
+        SaveKey = true,
+
+        Key = "nigger"
+
+    }
+
+})
+
+-- Create Main Tab
+
+local MainTab = Window:CreateTab("Main", "Home")
+
+-- Add Labels to Main Tab
+
+MainTab:CreateLabel("Made By shm_shm")
+
+-- Add Labels to Main Tab
+
+MainTab:CreateLabel("Some Scripts By XNE0K")
+
+-- Add Labels to Main Tab
+
+MainTab:CreateLabel("😎")
+
+-- Create Example Tab
+
+local ExampleTab = Window:CreateTab("Morphs", "settings")
+
+local ExampleSection = ExampleTab:CreateSection("Morphs")
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Krystal Dance",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa323/crytasl/refs/heads/main/Krystal%20Dance%20V2.lua.txt"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Neko",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/GooberDoesStuff/RandomClientRep/refs/heads/main/Neko.lua"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Bomb Vest V1",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Bomb-Vest-v1-35089"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Good cop bad cop",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa323/good-cop-bad-coop/refs/heads/main/KwuminKa.txt"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Ban Hammer",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa323/ban-hammer/refs/heads/main/ban"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "MLG Gun",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-the-ss-loadstring-script-27393"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Nebula Star Glitcher",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://pastebin.com/raw/j09BnGB3"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Spectrum Star Glitcher",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa323/SCPECTRUMGLITCHER/refs/heads/main/SpectrumG%20(1).txt"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Grab Knife V4",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-Grab-Knife-V4-27394"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Grab Knife V3",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Grab-V3-18932"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Ranenger Claws",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-ravenger-claws-9234"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Dual Pink Guns",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-dual-pink-guns-9235"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Ronald McDonald",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/HappyCow91/RobloxScripts/refs/heads/main/ClientSided/clown.lua"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Pipe Bomb Launcher",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/gitezgitgit/rare-scripts/refs/heads/main/PipeBomb%20Launcher.txt"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Plasma Cutters",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Plasma-Cutters-18936"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Kitchen Gun",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa323/rare/refs/heads/main/kitcher%20gun.lua"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Bomb Vest V2",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Bomb-Vest-V666-Xymatekidd-37476"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Galaxy Titan",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/gitezgitgit/rare-scripts/refs/heads/main/Galaxy%20Titan.txt",true))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Steve",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Minecraft-Steve-38043"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Master Hand",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/gitezgitgit/rare-scripts/refs/heads/main/MasterHand.txt",true))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Xester",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Xester-18937"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Vereus",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Roblox-VEREUS-monster-script-3746"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Goner",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa323/crytasl/refs/heads/main/goner.lua.txt"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Server Admin",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa323/crytasl/refs/heads/main/serveradmin.lua"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Thomas The Dank Engine",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Thomas-The-Dank-Engine-18940"))()
+
+ end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Robot",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://pastefy.app/guKOtwvU/raw"))()
+
+ end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "DB Shotgun",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://pastefy.app/1RhJtgDi/raw"))()
+
+ end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Lightsaber (Press Q to use)",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://pastefy.app/bpIeO2df/raw"))()
+
+ end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Soon",
+
+    Interact = 'Click',
+
+    Callback = function()
+
+ end,
+
+})
+
+-- Create Example Tab
+
+local ExampleTab = Window:CreateTab("GUI", "settings")
+
+local ExampleSection = ExampleTab:CreateSection("Guis")
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "C00lgui",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-c00lgui-38055"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "T0PK3K V3",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-idk-script-t0pk3k-29594"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "T0PK3K V4",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-t0pk3k-remake-37536"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Jumpscare GUI",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-Jumpscare-gui-38259"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Sheldoni",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Sheldoni-gui-29377"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Dick GUI",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Avtor1zaTion/NO-FE-SNAKE/refs/heads/main/NO-FE-Snake.txt'))()
+
+   end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Forcefield GUI",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-ForceField-script-fe-in-made-by-w000mkidd-29643"))()
+
+ end,
+
+})
+
+-- Create Example Tab
+
+local ExampleTab = Window:CreateTab("Tools", "settings")
+
+local ExampleSection = ExampleTab:CreateSection("Tools")
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Suicide Gun",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Suicide-GUN-Script-Xymatekidd-37872"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Laser Gun",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://pastebin.com/raw/DxCuMin9"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "AK74",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AK74-5621"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Dick Gun",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-Fe-bypass-gun-38354"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Meme Tools V1",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Meme-tools-29117"))()
+
+ end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Meme Tools V2",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Meme-Tools-V2-29149"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Meme Tools V3",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Meme-Tools-V3-38009"))()
+
+ end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Gamepasses Tool",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Gamepass-Tools-30734"))()
+
+ end,
+
+})
+
+-- Create Example Tab
+
+local ExampleTab = Window:CreateTab("Misc", "settings")
+
+local ExampleSection = ExampleTab:CreateSection("Misc")
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Pee (R6)",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/gitezgitgit/Pee/refs/heads/main/PeeScript.lua"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "R15 To R6",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-R15-to-r6-script-working-all-game-26416"))()
+
+    end,
+
+})
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Keyboard",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mobile-keyboard-6975"))()
+
+    end,
+
+})
+
+-- Create Example Tab
+
+local ExampleTab = Window:CreateTab("Vehicles", "settings")
+
+local ExampleSection = ExampleTab:CreateSection("Vehicles")
+
+-- Buttons for Example Template
+
+ExampleTab:CreateButton({
+
+    Name = "Tank",
+
+    Interact = 'Click',
+
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/gitezgitgit/rare-scripts/refs/heads/main/Green%20Tank.txt",true))()
+
+ end,
+
+})
+
+-- Notify Success
+
+Rayfield:Notify({
+
+    Title = "Loaded",
+
+    Content = "Lua Hub Ultimate  loaded successfully!",
+
+    Duration = 3,
+
+    Image = 4483362458,
+
+    Actions = {
+
+        Ignore = {
+
+            Name = "OK",
+
+            Callback = function()
+
+                print("User closed notification")
+
+            end
+
+        }
+
+    }
+
+})
+
+Rayfield:Notify({
+
+    Title = "Loaded",
+
+    Content = "Thank For using My script",
+
+    Duration = 4,
+
+    Image = 77371933945958,
+
+    Actions = {
+
+        Ignore = {
+
+            Name = "OK",
+
+            Callback = function()
+
+                print("User closed notification")
+
+            end
+
+        }
+
+    }
+
+})
